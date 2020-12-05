@@ -8,7 +8,7 @@ body{
 
   .navbar-brand{
 
-   margin-left: -70px;
+   margin-left: -3px;
 
   }
 
@@ -111,7 +111,7 @@ border:1px solid grey;
           	border-bottom-right-radius: 20px;
           	padding: 8px;
           	margin-left: -11px;
-          	margin-top:-5px; 
+          	margin-top:-4px; 
           }
            }
           @media screen and (max-width: 400px) and (min-width: 200px){
@@ -132,7 +132,7 @@ border:1px solid grey;
           	border-bottom-right-radius: 20px;
           	padding: 8px;
           	margin-left: -11px;
-          	margin-top:-5px; 
+          	margin-top:-4px; 
 
           }
            }
