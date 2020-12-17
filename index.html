@@ -15,10 +15,26 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Xanh+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-  
+ 
+<style type="text/css">
+#l{
+
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #fff url('https://images.squarespace-cdn.com/content/v1/5a00c0e7017db26b13f19639/1510001914702-9H635OEMW2RCJRL2JZHJ/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/Pill_Open_Mouth.gif?format=1500w')  no-repeat center;
+	z-index: 999999;
+	bottom:0;
+	
+	
+}
+</style>
 </head>
-<body>
-<!--nabvbar start--> 
+<body onload="myFunction()">
+	<div id="l">
+	
+    </div>
+
 	<!--nabvbar start--> 
 	<section>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg">
@@ -337,5 +353,10 @@
 					</div>
 
 					<!--modal end-->
+					<script type="text/javascript">  
+					 var preloader=document.getElementById('l');
+                      function myFunction(){
+	                document.getElementById('l').style.display= 'none';  }
+	                 </script>
 </body>
 </html>
